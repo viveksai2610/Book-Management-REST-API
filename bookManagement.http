@@ -1,0 +1,32 @@
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/550e8400-e29b-41d4-a716-446655440019
+
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+        "title": "Watcher 2",
+        "author": "Koontz",
+        "publishedYear": 1998
+}
+
+
+###
+
+PUT http://localhost:3000/books/299eed0a-af8d-46bd-8d28-9fae7b20d77d
+Content-Type: application/json
+
+{
+        "title": "The Watcher 2",
+        "author": "Dean Koontz",
+        "publishedYear": "2000"
+}
+
+###
+
+DELETE http://localhost:3000/books/f811a12b-ee87-442f-9e8a-3e1d79ee0409
