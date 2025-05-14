@@ -13,6 +13,9 @@ List of dependencies Used
    5. multer
    6. csv-parser
 
+
+Postman Collection : https://web.postman.co/workspace/856e1fe1-f77a-4004-84eb-0d7ac9d6f110/collection/39215671-ce608c30-b209-4f4b-a139-82b11d543008?action=share&source=copylink&creator=39215671 
+
  API 1
    Path: http://localhost:3000/books
    Method: GET
@@ -100,3 +103,4 @@ API 6
    Method: POST
 
    Description: Add multiple books using CSV file.  
+   
